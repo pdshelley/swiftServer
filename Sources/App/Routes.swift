@@ -11,6 +11,10 @@ extension Droplet {
         get("plaintext") { req in
             return "Hello, world!"
         }
+        
+        get("natasha") { req in
+            return "Hello Natasha!"
+        }
 
         // response to requests to /info domain
         // with a description of the request
